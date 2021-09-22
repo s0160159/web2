@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 
-      <html>
-        <head>
+  <html>
+  <head>
           <title>Задание 2</title>
-        </head>
- <style>       
- header{
- width: 100%;
- background: #dd43f1;
- height: 70px;
-}</style>
+  </head>
+
+  <header>
+    <div class="logo"> 
+    <a href="index.html"><img class="graficlogo" src="img/logo.png" width="90"  height="115">  </a>
+    <h1 align="center"> Задание </h1></div>
+  
+  <nav> 
+    <div class="topnav" id="myTopnav">
+    <a href=""> Ссылка меню 1</a> 
+    <a href=""> Ссылка меню 2</a>
+    <a href=""> Ссылка меню 3</a>
+    <a id="menu" href="#" class+"icon">&#9776</a>
+    </div>
+</nav>  
+</header>
+
         <body>
-          <h1>Задание 2</h1>
-      <ol>
+        <h2>Cписок</h2>
+       <div class="spisok">
+       <ol>
         <li><a href ="example.com">Ссылка 1</a></li>
         <li><a href ="https://example.com">Ссылка 2</a></li>
         <li><a href ="ftp://stonehub.ru/FAQ/manual.txt">Ссылка 3</a></li>
@@ -34,9 +45,9 @@
         <li><a href ="https://kubsu.ru/ru" rel=nofollow>Ссылка 11</a></l>
         <li><!--noindex--><a href ="https://kubsu.ru/ru">Ссылка 12</a></l>
         <li><a>Ссылка 13</a></li>
-        <li><img src="http://www.kartinki24.ru/uploads/gallery/main/209/kartinki24_flowers_0186.jpg" width="150"  height="125" alt="Ссылка 14" /> </li>
-        <li> <a href="https://kubsu.ru/"><img src="http://www.kartinki24.ru/uploads/gallery/main/209/kartinki24_flowers_0186.jpg" width="250" height="225" alt="Ссылка 15"
-          usemap="#Navigation"></div>
+        <li><img src="img/tcvetock.jpg" width="150"  height="125" alt="Ссылка 14" /> </li>
+        <li> <a href="https://kubsu.ru/"><img src="img/tcvetock.jpg" width="250" height="225" alt="Ссылка 15"
+          usemap="#Navigation">
           <p><map name="tsvetok">
               <area shape="rect" coords="0,0,10,0" href="kubsu.ru/ru">
               <area shape="circle" coords="10,10,10" href="https://moodle.kubsu.ru/">
@@ -48,41 +59,48 @@
             <li><a href="../../index.html">Ссылка 19</a></li>
             <li><a href="/">Ссылка 20</a> </li>
             <li><a href="/abouut/page.html">Ссылка 21</a></li>
-      
-            <h3>Таблица</h3>
-            <table>
-              <tr bgcolor="#00FFFF">
+    </ol>
+ </div>
+
+
+            <h2>Таблица</h2>
+            <div class="tablitca">
+            <table border="2">
+
+              <tr bgcolor="#9370DB">
                 <th>Колонка 1</th>
                 <th>Колонка 2</th>
                 <th>Колонка 3</th>
               </tr>
-              <tr bgcolor="#FF00FF">
+              <tr bgcolor="#DDA0DD">
                <td colspan="2"> 2, 3</td>
                 <td>3</td>
               </tr>
-              <tr bgcolor="#00FFFF">
+              <tr bgcolor="#9370DB">
                 <td>4</td>
                 <td colspan="2"> 5, 6</td>
                </tr>
-               <tr bgcolor="#FF00FF">
+               <tr bgcolor="#DDA0DD">
                 <td>7</td>
                  <td>8</td>
                  <td>9</td>
                </tr>
-               <tr bgcolor="#00FFFF">
+               <tr bgcolor="#9370DB">
                 <td rowspan="2"> 10,13</td>
                  <td>11</td>
                  <td>12</td>
                </tr>
-               <tr bgcolor="#FF00FF">
+               <tr bgcolor="#DDA0DD">
                 <td> 14</td>
                  <td >15</td>
                </tr>
            
             </table>
-      </ol>
-          
-
+      </div>
+      
+        
+      <h2>Форма</h2>
+      <div class="form">
              <label>
               Как тебя зовут?:<br />
               <input name="field-name-1"
@@ -155,9 +173,14 @@
          
             <input type="submit" value="Отправить" />
           </form>
-          
+          </div>  
           <a id=“top”>
           
         </body>
-      
+        <footer>
+          <div class="podval">
+          <h6 align="center">(c) Головчанская Дарья</h6></div>
+            </footer>
+       
+       <link rel="stylesheet" href="css/style.css">
         
